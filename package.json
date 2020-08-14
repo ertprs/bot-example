@@ -1,0 +1,34 @@
+{
+  "name": "dragendamento-envio-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femoraes95/dragendamento-envio-whatsapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femoraes95/dragendamento-envio-whatsapp/issues"
+  },
+  "homepage": "https://github.com/femoraes95/dragendamento-envio-whatsapp#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.2",
+    "moment": "^2.27.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^2.0.3",
+    "react": "^16.13.1",
+    "request": "^2.88.2",
+    "venom-bot": "^1.1.4"
+  }
+}
